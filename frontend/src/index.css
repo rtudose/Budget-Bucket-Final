@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    /* Default (Light) */
+    background-color: #f3f4f6;
+    color: #1f2937;
+    transition: background-color 0.3s ease;
+}
+
+/* When dark class is on html tag */
+.dark body {
+    background-color: #111827;
+    /* Dark Gray/Black */
+    color: #f3f4f6;
+}
