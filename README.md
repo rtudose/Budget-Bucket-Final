@@ -47,8 +47,10 @@ This application requires **Node.js** and **NPM** to be installed.
 
 ### 1. Backend Setup
 Navigate to the backend folder and install dependencies:
-    cd backend
-    npm install
+```
+cd backend
+npm install
+```
 Create a .env file in the backend folder with your MongoDB URI and JWT Secret:
 ```
 MONGO_URI=your_mongodb_connection_string
