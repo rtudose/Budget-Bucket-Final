@@ -50,17 +50,25 @@ Navigate to the backend folder and install dependencies:
     cd backend
     npm install
 Create a .env file in the backend folder with your MongoDB URI and JWT Secret:
-    MONGO_URI=your_mongodb_connection_string
-    JWT_SECRET=your_secret_key
-    PORT=5000
+```
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_secret_key
+PORT=5000
+```
 Start the backend server:
-    npm run dev
+```
+npm run dev
+```
 
 ### 2. Frontend Setup
 Navigate to the frontend folder and install dependencies:
-    cd frontend
-    npm install
+```
+cd frontend
+npm install
+```
 Start the React development server:
-    npm run dev
+```
+npm run dev
+```
 Open http://localhost:5173 in your browser to view the application.
 
